@@ -1,0 +1,26 @@
+{
+  "name": "creatim",
+  "version": "1.0.0",
+  "description": "Creatim rešitev naloge 6",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run dev -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "bootstrap": "^4.6.0",
+    "cross-env": "^7.0.0",
+    "jquery": "^3.6.0",
+    "laravel-mix": "^5.0.1",
+    "mocha": "^7.1.0",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.1.2",
+    "webpack": "^4.41.5"
+  },
+}
